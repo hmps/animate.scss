@@ -123,7 +123,9 @@
 
 	@if $original-prefix-for-spec {
 		@include disable-prefix-for-all();
+		// Newish Blink browsers recognize the unprefixed @keyframe but still needs the -webkit prefix for transitions
 		$prefix-for-webkit: true !global;
+		$prefix-for-spec: true !global;
 		@keyframes #{$name} {
 			@content;
 		}
