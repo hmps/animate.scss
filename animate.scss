@@ -1,3 +1,4 @@
+@charset "UTF-8";
 //-----------------------------------------------------------------------//
 // ANIMATE.SCSS
 //
@@ -10,6 +11,9 @@
 // CREDIT:
 // @daneden for the original concept in animate.css
 // @jackilyn for the scss port of Daniel's work
+//
+// LICENSE:
+// WFTPL - http://www.wtfpl.net/
 //
 // Version: 1.0
 //-----------------------------------------------------------------------//
@@ -32,12 +36,12 @@
 // in each mixin.
 //-----------------------------------------------------------------------//
 
-$global-duration: 		1s !default;
-$global-function: 		ease !default;
-$global-delay: 			.2s !default;
-$global-count:			1 !default;
-$global-fill: 			both !default;
-$global-visibility: 	hidden !default;
+$global-duration: 		1s 		!default;
+$global-function: 		ease 	!default;
+$global-delay: 			.2s 	!default;
+$global-count:			1 		!default;
+$global-fill: 			both 	!default;
+$global-visibility: 	hidden 	!default;
 
 $prefixes: (webkit moz ms o spec);
 
@@ -145,10 +149,3 @@ body {
 @import "partials/tada";
 @import "partials/wiggle";
 @import "partials/wobble";
-
-
-
-
-
-
-
