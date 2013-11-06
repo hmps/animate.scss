@@ -100,6 +100,7 @@ Run it through SASS and the resulting CSS will be:
 	}
 ```
 **Whoa, hold up! That's a lot of code dude!**
+
 Yeah, I know it looks kind of bloated. But that's due to the state of CSS animations and browser vendors. It need a whole lot of prefixing... And that's also the reason why Daniel's original project is close to 3500 lines of CSS, or 50-some kb minified.
 
 And here's the biggest reason why SASS 3.3 is perfect for this project - it gives you easy access to all animations without bloating your code or forcing you to make that extra HTTP-request. It just includes the animations that you actually use, nothing more and nothing less.
@@ -108,8 +109,8 @@ And here's the biggest reason why SASS 3.3 is perfect for this project - it give
 The only downside to animate.scss is that you need SASS 3.3 installed. But that should be installed anyway if you're into web development...
 
 ## Credit
-@daneden for the original concept in animate.css
-@jackilyn for the scss port of Daniel's work
+- @daneden for the original concept in animate.css
+- @jackilyn for the scss port of Daniel's work
 
 ## License
 [WFTPL](http://www.wtfpl.net/)
