@@ -113,3 +113,5 @@ The only downside to animate.scss is that you need SASS 3.3 installed. But that 
 
 ## License
 [WFTPL](http://www.wtfpl.net/)
+
+*Tested in Chrome, Safari, Firefox and Mobile Safari*
