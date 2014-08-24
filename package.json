@@ -1,0 +1,27 @@
+{
+  "name": "hmps-animate.scss",
+  "version": "1.0.1",
+  "description": "Animate.scss is a collection of fun, easy-to-use css animations for your project. There great to draw attention to objects, sliders and other awe-inspiring effects on your site.",
+  "main": "animate.scss",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hmps/animate.scss.git"
+  },
+  "keywords": [
+    "css",
+    "animation",
+    "scss"
+  ],
+  "author": "Hampus Persson, @hmps",
+  "license": "WFTPL",
+  "bugs": {
+    "url": "https://github.com/hmps/animate.scss/issues"
+  },
+  "homepage": "https://github.com/hmps/animate.scss"
+}
